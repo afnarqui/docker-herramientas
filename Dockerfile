@@ -2,9 +2,11 @@ FROM node:8.10.0
 
 WORKDIR usr
 
-COPY app /usr
+COPY . /usr
 
 RUN npm install
 
-CMD node server
+EXPOSE 4001
+
+CMD [ "npm", "start" ]
 

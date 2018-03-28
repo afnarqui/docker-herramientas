@@ -29,9 +29,9 @@ app.get('/', function(req, res){
   res.sendfile('index.html')
 });
 
-let puerto = 3001
+let puerto = 4001
 
-const server = app.listen(puerto, () => {
+const server = app.listen(puerto,'0.0.0.0', () => {
 
     const {address, port} = server.address();
 
