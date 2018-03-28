@@ -1,0 +1,23 @@
+{
+  "name": "docker-herramientas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afnarqui/docker-herramientas.git"
+  },
+  "keywords": [],
+  "author": "Andrés Felipe Naranjo Quintero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afnarqui/docker-herramientas/issues"
+  },
+  "homepage": "https://github.com/afnarqui/docker-herramientas#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
